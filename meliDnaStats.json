@@ -1,0 +1,16 @@
+{
+    "TableName": "meliDnaStats",
+    "KeySchema": [
+        {
+            "AttributeName": "statsId",
+            "KeyType": "HASH"
+        }
+    ],
+    "AttributeDefinitions": [
+        {
+            "AttributeName": "statsId",
+            "AttributeType": "S"
+        }
+    ],
+    "BillingMode": "PAY_PER_REQUEST"
+}
